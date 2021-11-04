@@ -1,4 +1,5 @@
 import React from "react";
+import Tilt from "react-parallax-tilt";
 
 function Hero() {
   return (
@@ -26,12 +27,14 @@ function Hero() {
           </button>
         </div>
       </div>
-      <div className="flex items-center justify-center">
-        <img
-          className="md:h-auto md:w-auto w-36 h-36"
-          src="https://raw.githubusercontent.com/wvsu-cict-code/cict-logo/ffc1f42e6fa6e04c33df791495ec4ef04c3f4d84/mascot.svg"
-        />
-      </div>
+      <Tilt tiltReverse="true" scale="1.1" transitionSpeed="1000">
+        <div className="flex items-center justify-center">
+          <img
+            className="md:h-auto md:w-auto w-36 h-36"
+            src="https://raw.githubusercontent.com/wvsu-cict-code/cict-logo/ffc1f42e6fa6e04c33df791495ec4ef04c3f4d84/mascot.svg"
+          />
+        </div>
+      </Tilt>
     </div>
   );
 }
