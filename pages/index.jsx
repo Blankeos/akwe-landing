@@ -2,7 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 
 import Link from "next/link";
-import Hero from "../components/sections/Hero";
+import Hero from "components/sections/Hero";
+import Teams from "components/sections/Teams";
 
 export default function Home({ data }) {
   return (
@@ -15,20 +16,8 @@ export default function Home({ data }) {
 
       <main className="flex-grow h-full">
         <Hero />
-        <h1 className="">HomePage</h1>
-        <div>
-          <Link href="/search">Search Students</Link>
-        </div>
-        <div>
-          {data.teams.map((team) => {
-            return (
-              <Link key={team.teamID} href={`/teams/${team.slug}`}>
-                <a>{team.teamName} | </a>
-              </Link>
-            );
-          })}
-          <p>Hello</p>
-        </div>
+
+        <Teams data={data} />
       </main>
     </>
   );
