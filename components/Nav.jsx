@@ -13,12 +13,11 @@ function Nav() {
         </Link>
         <div className=" h-full flex space-x-10 text-gray-600">
           <NavLinkItem href="/">Home</NavLinkItem>
-          <NavLinkItem href="/events">Events</NavLinkItem>
+          <NavLinkItem href="/program">Program</NavLinkItem>
           <NavLinkItem href="/about">About</NavLinkItem>
           <NavLinkItem href="/search">Student Search</NavLinkItem>
         </div>
       </div>
-      {/* <div className="bg-indigo-200 h-full">Hello</div> */}
     </nav>
   );
 }
