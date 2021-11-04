@@ -20,15 +20,21 @@ function Footer() {
             <p className="text-gray-200">
               Made with 💖 by{" "}
               <Link href="https://github.com/keiruu">
-                <a className="text-white hover:text-pink-300" target="_blank">Abigail</a>
+                <a className="text-white hover:text-pink-300" target="_blank">
+                  Abigail
+                </a>
               </Link>
               ,{" "}
               <Link href="https://github.com/ashcbrd">
-                <a className="text-white hover:text-pink-300" target="_blank">Asther</a>
+                <a className="text-white hover:text-pink-300" target="_blank">
+                  Asther
+                </a>
               </Link>
               , and{" "}
               <Link href="https://github.com/blankeos">
-                <a className="text-white hover:text-pink-300" target="_blank">Carlo</a>
+                <a className="text-white hover:text-pink-300" target="_blank">
+                  Carlo
+                </a>
               </Link>
               .
             </p>
@@ -38,11 +44,13 @@ function Footer() {
           </div>
         </div>
         <div className="flex flex-col text-sm space-y-1.5 text-gray-100">
-          <a>🐦 Twitter</a>
-          <a>📚 Facebook</a>
-          <a>🤵 LinkedIn</a>
-          <a>📷 Instagram</a>
-          <a>📧 Email</a>
+          <a>🐦 Just a Birb Not a Link</a>
+          <Link href="https://github.com/blankeos/akwe-landing">
+            <a className="hover:text-pink-300">👾 GitHub Source Code</a>
+          </Link>
+          <Link href="https://www.facebook.com/CICTSC2122/">
+            <a className="hover:text-pink-300">📚 CICT SC Facebook Page</a>
+          </Link>
         </div>
       </div>
     </footer>
