@@ -59,10 +59,12 @@ function SearchPage({ data }) {
           {filteredStudents.map((student) => {
             return (
               <>
-                <span className="px-3 py-3 border">
-                  {student.item && student.item.lastName},{" "}
-                  {student.item && student.item.firstName}
-                </span>
+                {student.item && (
+                  <span className="px-3 py-3 border">
+                    {student.item && student.item.lastName},{" "}
+                    {student.item && student.item.firstName}
+                  </span>
+                )}
                 {student.item && (
                   <TeamBadge
                     teamID={student.item.teamID}

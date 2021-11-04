@@ -2,20 +2,45 @@ import React from "react";
 import Link from "next/Link";
 
 export const Teams = ({ data }) => {
+  const emojiDict = {
+    0: "👾",
+    1: "🦄",
+    2: "🤖",
+    3: "🔭",
+    4: "🤑",
+    5: "🧶",
+    6: "🔮",
+    7: "💨",
+    8: "✨",
+    9: "🔥",
+  };
+
   return (
-    <div className="flex flex-wrap justify-center w-4/5 mx-auto my-10 hover:">
-      {data.teams.map((team) => {
-        return (
-          <Link key={team.teamID} href={`/teams/${team.slug}`}>
-            <div className="flex flex-col w-80 h-80 justify-end text-center shadow-lg border border-gray-200 m-5 rounded-xl hover:bg-gray-100 hover:border-blue-500">
-              <a className="text-xl font-bold">{team.teamName}</a>
-              <a className="text-xs text-gray-600 mb-5">
-                FACILITATOR: {team.facilitator}
+    <div className="w-full max-w-[90rem] mx-auto">
+      <h2 className="text-center tracking-tighter font-extrabold text-5xl mt-20 text-gray-800">
+        Meet the Teams
+      </h2>
+      <div className="flex flex-wrap justify-center w-full mx-auto my-10 hover:">
+        {data.teams.map((team) => {
+          return (
+            <Link key={team.teamID} href={`/teams/${team.slug}`}>
+              <a>
+                <div className="cursor-pointer flex flex-col w-80 h-80 justify-end text-center shadow-lg border border-gray-200 m-5 rounded-xl hover:bg-gray-100 hover:border-blue-500">
+                  <span className="flex-grow flex items-center justify-center text-8xl">
+                    {emojiDict[team.teamID]}
+                  </span>
+                  <a className="text-xl font-extrabold tracking-tight text-gray-800 capitalize">
+                    {team.teamName}
+                  </a>
+                  <a className="text-sm text-gray-600 mt-1 mb-5 capitalize">
+                    Facilitator: {team.facilitator.toLowerCase()}
+                  </a>
+                </div>
               </a>
-            </div>
-          </Link>
-        );
-      })}
+            </Link>
+          );
+        })}
+      </div>
     </div>
   );
 };

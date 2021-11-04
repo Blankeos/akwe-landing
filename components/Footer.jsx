@@ -32,6 +32,9 @@ function Footer() {
               </Link>
               .
             </p>
+            <p className="text-gray-200 text-xs pt-5">
+              © 2021 WVSU-CICT. All Rights Reserved.
+            </p>
           </div>
         </div>
         <div className="flex flex-col text-sm space-y-1.5 text-gray-100">

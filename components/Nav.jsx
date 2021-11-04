@@ -11,7 +11,7 @@ function Nav() {
             CYBERGENCE
           </a>
         </Link>
-        <div className=" h-full flex space-x-10 text-gray-700">
+        <div className=" h-full flex space-x-10 text-gray-600">
           <NavLinkItem href="/">Home</NavLinkItem>
           <NavLinkItem href="/events">Events</NavLinkItem>
           <NavLinkItem href="/about">About</NavLinkItem>
