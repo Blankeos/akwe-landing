@@ -1,7 +1,10 @@
 import React from "react";
-import Head from "next/head";
+import { FaChevronLeft } from 'react-icons/fa';
+import { useRouter } from 'next/router'
 
 function TeamPage({ team, members }) {
+  const router = useRouter()
+
   const emojiDict = {
     0: "👾",
     1: "🦄",
@@ -17,15 +20,12 @@ function TeamPage({ team, members }) {
 
   return (
     <>
-      <Head>
-        <title>Cybergence | {team.teamName}</title>
-        <meta
-          name="description"
-          content="Emerging CICTzens into a Virtual Iridescent World."
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <main className="flex flex-col justify-center items-center gap-y-10 mt-20">
+      <div className="flex justify-center mt-10">
+        <div className="w-[45rem]">
+          <FaChevronLeft className="cursor-pointer" onClick={() => router.back()}/>
+        </div>
+      </div>
+      <div className="flex flex-col justify-center items-center gap-y-10 mt-14">
         <span className="flex-grow flex items-center justify-center text-8xl">
           {emojiDict[team.teamID]}
         </span>
@@ -47,7 +47,7 @@ function TeamPage({ team, members }) {
             );
           })}
         </div>
-      </main>
+      </div>
     </>
   );
 }
