@@ -89,10 +89,18 @@ function Nav() {
                 id="mobile-menu"
               >
                 <div className="px-2 py-8 space-y-5 sm:px-3 w-full">
-                  <NavLinkItem href="/">Home</NavLinkItem>
-                  <NavLinkItem href="/program">Program</NavLinkItem>
-                  <NavLinkItem href="/about">About</NavLinkItem>
-                  <NavLinkItem href="/search">Student Search</NavLinkItem>
+                  <NavLinkItem onClick={() => setIsOpen(false)} href="/">
+                    Home
+                  </NavLinkItem>
+                  <NavLinkItem onClick={() => setIsOpen(false)} href="/program">
+                    Program
+                  </NavLinkItem>
+                  <NavLinkItem onClick={() => setIsOpen(false)} href="/about">
+                    About
+                  </NavLinkItem>
+                  <NavLinkItem onClick={() => setIsOpen(false)} href="/search">
+                    Student Search
+                  </NavLinkItem>
                 </div>
               </div>
             )}
@@ -103,11 +111,12 @@ function Nav() {
   );
 }
 
-function NavLinkItem({ href, children }) {
+function NavLinkItem({ href, children, onClick = () => null }) {
   const router = useRouter();
   return (
     <Link href={href}>
       <a
+        onClick={onClick}
         className={`flex items-center ${
           router.pathname === href ? " font-semibold" : ""
         }`}
