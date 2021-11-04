@@ -1,9 +1,9 @@
 import React from "react";
-import { FaChevronLeft } from 'react-icons/fa';
-import { useRouter } from 'next/router'
+import { FaChevronLeft } from "react-icons/fa";
+import { useRouter } from "next/router";
 
 function TeamPage({ team, members }) {
-  const router = useRouter()
+  const router = useRouter();
 
   const emojiDict = {
     0: "👾",
@@ -22,7 +22,10 @@ function TeamPage({ team, members }) {
     <>
       <div className="flex justify-center mt-10">
         <div className="w-[45rem]">
-          <FaChevronLeft className="cursor-pointer ml-3 md:ml-0" onClick={() => router.back()}/>
+          <FaChevronLeft
+            className="cursor-pointer ml-3 md:ml-0"
+            onClick={() => router.push("/", { scroll: false })}
+          />
         </div>
       </div>
       <div className="flex flex-col justify-center items-center gap-y-10 mt-14">
