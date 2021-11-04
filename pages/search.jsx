@@ -48,7 +48,7 @@ function SearchPage({ data }) {
           🔍 Student Search
         </h1>
         <input
-          autofocus
+          autoFocus
           className="border p-2"
           placeholder="🔍 Write your name and see where you belong..."
           onChange={handleNameInputChange}

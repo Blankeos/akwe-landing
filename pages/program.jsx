@@ -105,8 +105,8 @@ function ProgramFlowItem({ leftHeading, rightHeading, items = [] }) {
       <div>
         <h2 className="font-bold">{leftHeading}</h2>
         <div className="pl-10">
-          {items.map((item) => {
-            return <p>{item}</p>;
+          {items.map((item, i) => {
+            return <p key={i}>{item}</p>;
           })}
         </div>
       </div>

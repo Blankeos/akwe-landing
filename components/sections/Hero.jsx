@@ -23,7 +23,7 @@ function Hero() {
           <Link href="/search">
             <a className="primary-btn">Student Search</a>
           </Link>
-          <Link href="/search">
+          <Link href="/program">
             <a className="secondary-btn">Check out Program</a>
           </Link>
         </div>

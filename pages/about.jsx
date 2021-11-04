@@ -8,9 +8,7 @@ function AboutPage() {
         <title>Cybergence | About Us</title>
         <meta
           name="description"
-          content="Emerging CICTzens into a Virtual Iridescent World.
-
-"
+          content="Emerging CICTzens into a Virtual Iridescent World."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
