@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 
 import Link from "next/link";
+import Hero from "../components/sections/Hero";
 
 export default function Home({ data }) {
   return (
@@ -12,7 +13,8 @@ export default function Home({ data }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-blue-500 flex-grow h-full">
+      <main className="flex-grow h-full">
+        <Hero />
         <h1 className="">HomePage</h1>
         <div>
           <Link href="/search">Search Students</Link>
