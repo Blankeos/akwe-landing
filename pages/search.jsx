@@ -121,7 +121,7 @@ function TeamBadge({ teamID, teamsList }) {
           style={{
             backgroundColor: colorDict[teamID],
           }}
-          className="p-1 px-2.5 truncate rounded-full text-xs text-white"
+          className="p-1 px-2.5 rounded-full text-xs text-white text-center"
         >
           {team.teamName}
         </a>
