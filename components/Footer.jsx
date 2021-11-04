@@ -11,6 +11,7 @@ function Footer() {
               className="w-32 h-32"
               src="https://raw.githubusercontent.com/wvsu-cict-code/cict-logo/ffc1f42e6fa6e04c33df791495ec4ef04c3f4d84/mascot.svg"
             />
+            ¸
           </div>
           <div className="flex flex-col space-y-2">
             <p className="text-white text-lg font-bold max-w-sm">
