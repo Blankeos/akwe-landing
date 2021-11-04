@@ -104,9 +104,12 @@ function Program() {
             rightHeading="3:40 PM"
           />
           <ProgramFlowItem
-            leftHeading="XVI"
+            leftHeading="XVI. Closing Remarks"
             rightHeading="3:45 PM"
-            items={["Cyrene Dofitas, CICT Student Council Adviser"]}
+            items={[
+              "Cyrene Dofitas, CICT Student Council Adviser",
+              "Kyle Robles & Chelsea Joy Young, Event Hosts",
+            ]}
           />
         </div>
       </main>
