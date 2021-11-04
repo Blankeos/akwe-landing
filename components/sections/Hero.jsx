@@ -8,7 +8,7 @@ function Hero() {
       <div className="flex flex-col space-y-5 h-full justify-center">
         <h1 className="flex flex-col">
           <span className="uppercase text-gray-400">Acquaintance Party</span>
-          <span className="font-black tracking-tighter text-5xl md:text-7xl text-transparent bg-clip-text bg-gradient-to-br from-[#feabf1] to-[#033f8f] filter drop-shadow-sm">
+          <span className="font-black tracking-tighter text-4xl sm:text-5xl md:text-7xl text-transparent bg-clip-text bg-gradient-to-br from-[#feabf1] to-[#033f8f] filter drop-shadow-sm">
             CYBERGENCE 2021
           </span>
         </h1>

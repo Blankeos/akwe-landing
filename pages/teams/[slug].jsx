@@ -1,6 +1,7 @@
 import React from "react";
 import { FaChevronLeft } from "react-icons/fa";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 function TeamPage({ team, members }) {
   const router = useRouter();

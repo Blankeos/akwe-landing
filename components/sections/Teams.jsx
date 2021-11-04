@@ -20,7 +20,7 @@ export const Teams = ({ data }) => {
       <h2 className="text-center tracking-tighter font-extrabold text-5xl mt-20 text-gray-800">
         Meet the Teams
       </h2>
-      <div className="flex flex-wrap justify-center w-full mx-auto my-10 hover:">
+      <div className="flex flex-wrap justify-center w-full mx-auto my-10 hover: overflow-hidden">
         {data.teams.map((team) => {
           return (
             <Link key={team.teamID} href={`/teams/${team.slug}`}>
