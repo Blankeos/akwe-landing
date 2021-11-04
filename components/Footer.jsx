@@ -20,15 +20,15 @@ function Footer() {
             <p className="text-gray-200">
               Made with 💖 by{" "}
               <Link href="https://github.com/keiruu">
-                <a className="text-white hover:text-pink-300">Abigail</a>
+                <a className="text-white hover:text-pink-300" target="_blank">Abigail</a>
               </Link>
               ,{" "}
               <Link href="https://github.com/ashcbrd">
-                <a className="text-white hover:text-pink-300">Asther</a>
+                <a className="text-white hover:text-pink-300" target="_blank">Asther</a>
               </Link>
               , and{" "}
               <Link href="https://github.com/blankeos">
-                <a className="text-white hover:text-pink-300">Carlo</a>
+                <a className="text-white hover:text-pink-300" target="_blank">Carlo</a>
               </Link>
               .
             </p>
