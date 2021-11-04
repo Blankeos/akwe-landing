@@ -45,9 +45,11 @@ function SearchPage({ data }) {
           🔍 Student Search
         </h1>
         <input
+          autofocus
           className="border p-2"
-          placeholder="Which team do you belong to?"
+          placeholder="🔍 Write your name and see where you belong..."
           onChange={handleNameInputChange}
+          value={nameInput}
         />
         <div className="grid grid-cols-[2fr,1fr] font-bold">
           <span>Name</span>

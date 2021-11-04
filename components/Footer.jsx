@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 function Footer() {
   return (
@@ -17,7 +18,19 @@ function Footer() {
             </p>
             <p className="text-gray-200">Event Landing Website</p>
             <p className="text-gray-200">
-              Made with 💖 by Abigail, Asther, Carlo.
+              Made with 💖 by{" "}
+              <Link href="https://github.com/keiruu">
+                <a className="text-white hover:text-pink-300">Abigail</a>
+              </Link>
+              ,{" "}
+              <Link href="https://github.com/ashcbrd">
+                <a className="text-white hover:text-pink-300">Asther</a>
+              </Link>
+              , and{" "}
+              <Link href="https://github.com/blankeos">
+                <a className="text-white hover:text-pink-300">Carlo</a>
+              </Link>
+              .
             </p>
           </div>
         </div>

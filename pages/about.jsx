@@ -14,16 +14,45 @@ function AboutPage() {
           Meet The Core Team!
         </h1>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-8 pt-10 text-center">
-          <ProfileItem name="Allyn Navarra" title="Event Chairperson" />
-          <ProfileItem name="Jasper Damasco" title="Event Vice Chairperson" />
-          <ProfileItem name="John Rey Uy" title="Cyberpunk Outfit" />
-          <ProfileItem name="Emirene Joy Castillo" title="Art Appropriation" />
-          <ProfileItem name="Hannah Mae Arceño" title="T-Shirt Designing" />
-          <ProfileItem name="Jayrose Bunda" title="Teamtok Content Creation" />
-          <ProfileItem name="Hazel Kaye Lasconia" title="CICTzens Got Talent" />
+          <ProfileItem
+            name="Allyn Navarra"
+            title="Event Chairperson"
+            imageSrc="/photos/event_chairperson.png"
+          />
+          <ProfileItem
+            name="Jasper Damasco"
+            title="Event Vice Chairperson"
+            imageSrc="/photos/event_vice_chairperson.png"
+          />
+          <ProfileItem
+            name="John Rey Uy"
+            title="Cyberpunk Outfit"
+            imageSrc="/photos/cyberpunk_outfit.png"
+          />
+          <ProfileItem
+            name="Emirene Joy Castillo"
+            title="Art Appropriation"
+            imageSrc="/photos/art_appropriation.png"
+          />
+          <ProfileItem
+            name="Hannah Mae Arceño"
+            title="T-Shirt Designing"
+            imageSrc="/photos/tshirt_designing.png"
+          />
+          <ProfileItem
+            name="Jayrose Bunda"
+            title="Teamtok Content Creation"
+            imageSrc="/photos/teamtok_content_creation.png"
+          />
+          <ProfileItem
+            name="Hazel Kaye Lasconia"
+            title="CICTzens Got Talent"
+            imageSrc="/photos/cictzens_got_talent.png"
+          />
           <ProfileItem
             name="Ralph Joseph Peralta"
             title="Quiz Bee Competition"
+            imageSrc="/photos/quiz_bee_competition.png"
           />
         </div>
       </main>
@@ -31,10 +60,17 @@ function AboutPage() {
   );
 }
 
-function ProfileItem({ name, title }) {
+function ProfileItem({ name, title, imageSrc }) {
   return (
     <div className="flex flex-col items-center space-y-1">
-      <div className="h-32 w-32 rounded-full bg-blue-500"></div>
+      <div
+        className="h-32 w-32 rounded-full bg-[#feabf1] border"
+        style={{
+          backgroundImage: `url(${imageSrc})`,
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+        }}
+      ></div>
       <h3 className="text-xl font-bold tracking-tight pt-5">{name}</h3>
       <p className="text-gray-700">{title}</p>
     </div>
