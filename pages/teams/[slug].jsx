@@ -1,11 +1,37 @@
 import React from "react";
 
 function TeamPage({ team, members }) {
+
+  const emojiDict = {
+    0: "👾",
+    1: "🦄",
+    2: "🤖",
+    3: "🔭",
+    4: "🤑",
+    5: "🧶",
+    6: "🔮",
+    7: "💨",
+    8: "✨",
+    9: "🔥",
+  };
+
   return (
-    <div>
-      <h1>Welcome to {team.teamName}</h1>
-      <p>team: {JSON.stringify(team)}</p>
-      <p>members: {JSON.stringify(members)}</p>
+    <div className="flex flex-col justify-center items-center gap-y-10 mt-20">
+      <span className="flex-grow flex items-center justify-center text-8xl">{emojiDict[team.teamID]}</span>
+      <h1 className="font-black tracking-tighter text-3xl md:text-5xl text-transparent bg-clip-text bg-gradient-to-br from-[#feabf1] to-[#033f8f] filter drop-shadow-sm px-2">{team.teamName}</h1>
+      <p className="text-center">Facilitator <br/> {team.facilitator}</p>
+      <div className="flex flex-col flex-grow w-full md:w-[45rem]">
+        <span className="font-bold my-4 mx-3 md:mx-0">Name</span>
+        {members.map((member) => {
+              return (
+                <>
+                  <span className="px-3 py-3 border">
+                    {member.lastName}, {member.firstName}
+                  </span>
+                </>
+              );
+        })}
+      </div>
     </div>
   );
 }
