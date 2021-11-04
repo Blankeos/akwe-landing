@@ -11,6 +11,21 @@ function AboutPage() {
           content="Emerging CICTzens into a Virtual Iridescent World."
         />
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:title" content={`Cybergence | About Us`} />
+        <meta property="og:site_name" content="Cybergence" />
+        <meta property="og:url" content="https://cybergence.vercel.app/" />
+        <meta name="theme-color" content="#3B82F6" />
+        <meta property="og:type" content="website" />
+        <meta name="image" content="/photos/sc_0.png" />
+        <meta property="og:image" content="/photos/sc_0.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator" content="Cybergence" />
+        <meta name="twitter:title" content={`Cybergence | About Us`} />
+        <meta
+          name="twitter:description"
+          content="Emerging CICTzens into a Virtual Iridescent World."
+        />
+        <meta name="twitter:image" content="/photos/sc_0.png" />
       </Head>
       <main className="max-w-5xl w-full mx-auto pt-10 pb-28 px-10 overflow-hidden flex-grow flex flex-col space-y-10">
         <h1 className="font-extrabold tracking-tighter text-center text-gray-800 text-5xl">
