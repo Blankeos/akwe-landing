@@ -13,7 +13,7 @@ function Program() {
         <h1 className="font-extrabold tracking-tighter text-center text-gray-800 text-5xl">
           Program Flow
         </h1>
-        <div className="flex flex-col space-y-2 text-gray-700">
+        <div className="flex flex-col space-y-2 text-gray-700 py-20">
           <ProgramFlowItem
             leftHeading="I. Opening Hymn"
             rightHeading="9:00 AM"
