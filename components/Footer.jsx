@@ -43,13 +43,15 @@ function Footer() {
             </p>
           </div>
         </div>
-        <div className="flex md:justify-center w-full md:text-left text-center mt-2 flex md:flex-col text-xs md:text-sm space-y-1.5 text-gray-100">
-          <a>🐦 Just a Birb Not a Link</a>
+        <div className="flex md:justify-center mx-auto w-full md:text-left text-center mt-2 flex md:flex-col text-xs md:text-sm space-y-1.5 text-gray-100">
+          <a className="mr-4 mt-1 md:-mt-5">🐦 Just a Birb Not a Link</a>
           <Link href="https://github.com/blankeos/akwe-landing">
             <a className="hover:text-pink-300">👾 GitHub Source Code</a>
           </Link>
           <Link href="https://www.facebook.com/CICTSC2122/">
-            <a className="hover:text-pink-300">📚 CICT SC Facebook Page</a>
+            <a className="ml-4 md:ml-0 hover:text-pink-300">
+              📚 CICT SC Facebook Page
+            </a>
           </Link>
         </div>
       </div>
