@@ -9,21 +9,21 @@ function Nav() {
           CYBERGENCE
         </a>
       </Link>
-      <div className=" h-full flex space-x-10 font-medium text-lg">
+      <div className=" h-full flex space-x-10">
         <Link href="/" className="h-full">
           <a className="flex items-center">Home</a>
         </Link>
         <Link href="/" className="h-full">
           <a className="flex items-center">Events</a>
         </Link>
-        <Link href="/" className="h-full">
+        <Link href="/about" className="h-full">
           <a className="flex items-center">About</a>
         </Link>
-        <Link href="/" className="h-full">
+        <Link href="/search" className="h-full">
           <a className="flex items-center">Search Students</a>
         </Link>
       </div>
-      <div className="bg-indigo-200 h-full">Hello</div>
+      {/* <div className="bg-indigo-200 h-full">Hello</div> */}
     </nav>
   );
 }
