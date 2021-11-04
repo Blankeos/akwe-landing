@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="bg-gradient-to-br from-[#feabf1] to-[#033f8f]  z-40 w-full pt-8 md:pt-20 pb-8 md:pb-20 px-10 sticky top-0 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-80 border border-gray-200">
       <div className="flex items-center justify-center flex-col jus max-w-5xl w-full mx-auto md:grid grid-cols-[2fr,1fr] h-full">
-        <div className="flex space-x-5">
+        <div className="flex md:space-x-5">
           <div className="hidden h-36 w-36 rounded-full bg-gray-700 md:flex justify-center items-center">
             <img
               className="w-32 h-32"
