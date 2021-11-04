@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+
 function TeamPage({ team, members }) {
   const emojiDict = {
     0: "👾",
