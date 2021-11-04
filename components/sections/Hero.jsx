@@ -1,5 +1,6 @@
 import React from "react";
 import Tilt from "react-parallax-tilt";
+import Link from "next/link";
 
 function Hero() {
   return (
@@ -19,12 +20,12 @@ function Hero() {
           <p>9:00 AM - 11:30 AM, 1:30 PM - 3:30 PM</p>
         </div>
         <div className="flex space-x-5">
-          <button className="px-4 py-1 border border-blue-400">
-            Search Students
-          </button>
-          <button className="px-4 py-1 border border-blue-400 bg-blue-400">
-            See Events
-          </button>
+          <Link href="/search">
+            <a>Student Search</a>
+          </Link>
+          <Link href="/search">
+            <a>Check out Program</a>
+          </Link>
         </div>
       </div>
       <Tilt tiltReverse="true" scale="1.1" transitionSpeed="1000">

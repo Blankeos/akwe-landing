@@ -16,7 +16,6 @@ export default function Home({ data }) {
 
       <main className="flex-grow h-full">
         <Hero />
-
         <Teams data={data} />
       </main>
     </>

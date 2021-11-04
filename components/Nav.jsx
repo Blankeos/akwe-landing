@@ -15,8 +15,8 @@ function Nav() {
         </Link>
         <div className="hidden h-full md:flex space-x-10 text-gray-600">
           <NavLinkItem href="/">Home</NavLinkItem>
-          <NavLinkItem href="/events">Events</NavLinkItem>
           <NavLinkItem href="/about">About</NavLinkItem>
+          <NavLinkItem href="/program">Program</NavLinkItem>
           <NavLinkItem href="/search">Student Search</NavLinkItem>
         </div>
         <div className="-mr-2 flex md:hidden">
@@ -64,6 +64,7 @@ function Nav() {
           </button>
         </div>
       </div>
+
       <Transition
         show={isOpen}
         enter="transition ease-out duration-200 transform"
