@@ -20,3 +20,11 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.primary-btn{
+  @apply border-2 border-[#6C6CB8] text-xs md:text-base bg-[#6C6CB8] px-4 md:px-6 p-4 text-white duration-300 ease-in-out hover:-translate-y-1.5 transition-all transform transition
+}
+
+.secondary-btn{
+  @apply border-2 border-[#6C6CB8] p-4 text-xs md:text-base px-4 md:px-6 text-[#6C6CB8] hover:bg-[#6C6CB8] hover:text-white transition duration-200 ease-in
+}

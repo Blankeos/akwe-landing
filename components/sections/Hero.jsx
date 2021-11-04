@@ -21,10 +21,10 @@ function Hero() {
         </div>
         <div className="flex space-x-5">
           <Link href="/search">
-            <a>Student Search</a>
+            <a className="primary-btn">Student Search</a>
           </Link>
           <Link href="/search">
-            <a>Check out Program</a>
+            <a className="secondary-btn">Check out Program</a>
           </Link>
         </div>
       </div>
