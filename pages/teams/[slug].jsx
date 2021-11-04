@@ -21,7 +21,7 @@ function TeamPage({ team, members }) {
       <h1 className="font-black tracking-tighter text-3xl md:text-5xl text-transparent bg-clip-text bg-gradient-to-br from-[#feabf1] to-[#033f8f] filter drop-shadow-sm px-2">{team.teamName}</h1>
       <p className="text-center">Facilitator <br/> {team.facilitator}</p>
       <div className="flex flex-col flex-grow w-full md:w-[45rem]">
-        <span className="font-bold my-4 mx-3 md:mx-0">Name</span>
+        <span className="font-bold my-4 mx-3 md:mx-0">Team Members</span>
         {members.map((member) => {
               return (
                 <>
