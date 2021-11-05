@@ -111,7 +111,6 @@ export const getStaticProps = async (context) => {
 
   const mdxSource = await serialize(content);
 
-  console.log(data, content, slug);
   return {
     props: {
       data,
