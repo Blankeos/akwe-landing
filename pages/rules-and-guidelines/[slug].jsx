@@ -46,7 +46,7 @@ function RulesAndGuideLinesPage({
       <main className="max-w-5xl w-full mx-auto pt-10 pb-28 px-10 overflow-hidden flex-grow flex flex-col space-y-10">
         <div>
           <h3 className="font-bold tracking-tighter text-xl pb-2">Events</h3>
-          <div className="flex gap-x-8 gap-y-3 flex-wrap text-sm">
+          <div className="flex gap-x-3 gap-y-3 flex-wrap text-sm">
             {rulesAndGuidelinesList.map((rag, i) => {
               return <EventItem ragItem={rag} key={i} />;
             })}
@@ -120,18 +120,3 @@ export const getStaticProps = async (context) => {
     },
   };
 };
-// export const getStaticProps = async (context) => {
-//   const slug = context.params.slug;
-//   const data = await fetchData();
-//   const team = data.teams.find((team) => team.slug === slug);
-//   const members = data.students.filter(
-//     (student) => student.teamID === team.teamID
-//   );
-
-//   return {
-//     props: {
-//       team,
-//       members,
-//     },
-//   };
-// };
