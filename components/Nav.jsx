@@ -122,12 +122,15 @@ function Nav() {
 
 function NavLinkItem({ href, children, onClick = () => null }) {
   const router = useRouter();
+
   return (
     <Link href={href}>
       <a
         onClick={onClick}
         className={`flex items-center truncate text-sm ${
-          router.pathname === href ? " font-semibold" : ""
+          router.pathname.split("/")[1] === href.split("/")[1]
+            ? " font-semibold"
+            : ""
         }`}
       >
         {children}
