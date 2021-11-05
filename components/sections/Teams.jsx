@@ -25,7 +25,7 @@ export const Teams = ({ data }) => {
           return (
             <Link key={team.teamID} href={`/teams/${team.slug}`}>
               <a>
-                <div className="cursor-pointer flex flex-col w-80 h-80 justify-end text-center shadow-lg border border-gray-200 m-5 rounded-xl hover:scale-110 hover:bg-gray-100 hover:border-blue-500 hover:shadow-xl duration-100">
+                <div className="cursor-pointer flex flex-col w-80 h-80 justify-end text-center shadow-lg border border-gray-200 m-5 rounded-xl md:hover:scale-110 hover:bg-gray-100 hover:border-blue-500 hover:shadow-xl duration-100">
                   <span className="flex-grow flex items-center justify-center text-8xl">
                     {emojiDict[team.teamID]}
                   </span>
