@@ -19,3 +19,13 @@ numberOfParticipants: "0"
 10. The decision of Judges will be final and irrevocable.
 11. Winners will be announced on the actual Acquaintance Party.
 12. Entries that does not follow the Rules and Guidelines are subject for disqualification.
+
+## Criteria for Judging
+
+| Criteria                                                                   | Percent |
+| -------------------------------------------------------------------------- | ------- |
+| **Concept/Relevance** - (Creativity, Originality, and Message)             | 30%     |
+| **Character and Dialogue** - (Acting, Portrayal, and Mastery)              | 20%     |
+| **Overall Visual Impact** - (Video Quality, Attire, and Artistry)          | 20%     |
+| **Social Media Reactions** - (Total count of "Haha" reactions on Facebook) | 15%     |
+| **TOTAL**                                                                  | 100%    |

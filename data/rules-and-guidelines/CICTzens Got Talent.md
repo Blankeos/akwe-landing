@@ -25,3 +25,14 @@ numberOfParticipants: "0"
 13. The decision of Judges will be final and irrevocable.
 14. Winners will be announced on the actual Acquaintance Party.
 15. Entries that does not follow the Rules and Guidelines are subject for disqualifications
+
+## Critera for Judging
+
+| Criteria                                            | Percent |
+| --------------------------------------------------- | ------- |
+| Poise (confidence, covers mistakes well, composure) | 10%     |
+| Physical Appearance                                 | 15%     |
+| Originality and Creativity                          | 15%     |
+| Talent (music, ability, coordination, etc.)         | 40%     |
+| Overall Impression                                  | 20%     |
+| **Total**                                           | 100%    |

@@ -29,3 +29,11 @@ Cyberpunk Outfit Competition is an exciting experience to showcase their tech-we
 14. Entries that does not follow the Rules and Guidelines are subject for disqualification.
 
 ## Criteria for Judging
+
+| Criteria                                                                                                                                                            | Percent |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| **Accuracy** - Appropriateness of the outfits for the particular event and conditions                                                                               | 25%     |
+| **Creativity** - How hard each person had to work to complete his costume, find a rare prop, style and appropriate wig or do his make-up. As well as editing skills | 25%     |
+| **Originality** - Skill and thoroughness of the idea or willingness to think outside the box should be obvious in their outfit                                      | 20%     |
+| Facebook most likes/react entry                                                                                                                                     | 30%     |
+| **Total**                                                                                                                                                           | 100%    |

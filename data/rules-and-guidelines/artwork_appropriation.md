@@ -22,3 +22,13 @@ numberOfParticipants: "0"
 12. The decision of Judges will be final and irrevocable.
 13. Winners will be announced on the actual Acquaintance Party.
 14. Entries that does not follow the Rules and Guidelines are subject for disqualification
+
+## Criteria for Judging
+
+| Criteria                                                                                                                                                                 | Percent |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- |
+| **Relevance to the Theme **- The artwork should effectively communicate from the given theme                                                                             | 10%     |
+| **Originality and Creativity **- Must present creativeness and unique interpretation of the artwork                                                                      | 15%     |
+| **Aesthetic Appeal** - Quality of artistic composition and presentation using unique lighting, use of color, interesting perspective or by featuring an unusual subject. | 40%     |
+| **Overall Impact** - The mood/emotions projected to the viewers and general design based on the theme                                                                    | 20%     |
+| **Total**                                                                                                                                                                | 100%    |

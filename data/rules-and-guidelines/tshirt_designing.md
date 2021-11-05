@@ -28,3 +28,14 @@ numberOfParticipants: "0"
 15. The decision of Judges will be final and irrevocable.
 16. Winners will be announced on the actual Acquaintance Party.
 17. Entries that does not follow the Rules and Guidelines are subject for disqualification.
+
+## Criteria for Judging
+
+| Criteria                | Percent |
+| ----------------------- | ------- |
+| Creativity              | 30%     |
+| Originality             | 20%     |
+| Balance and Composition | 20%     |
+| Relevance to the Theme  | 15%     |
+| Overall Tshirt Design   | 15%     |
+| **TOTAL **              | 100%    |
