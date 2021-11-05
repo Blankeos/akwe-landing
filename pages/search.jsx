@@ -4,7 +4,7 @@ import Link from "next/link";
 import Fuse from "fuse.js";
 
 function SearchPage({ data }) {
-  const [filteredStudents, setFilteredStudents] = useState(data.students);
+  const [filteredStudents, setFilteredStudents] = useState(null);
   const [nameInput, setNameInput] = useState("");
 
   const fuse = new Fuse(data.students, {
@@ -21,6 +21,7 @@ function SearchPage({ data }) {
   }
 
   useEffect(() => {
+    console.log("name input change");
     const timeOut = setTimeout(() => {
       setFilteredStudents(fuzzySearch(nameInput));
     }, 800);
@@ -73,26 +74,34 @@ function SearchPage({ data }) {
           <span>Name</span>
           <span>Team</span>
         </div>
-        <div className="grid grid-cols-[2fr,1fr] text-gray-700 overflow-hidden border">
-          {filteredStudents.map((student) => {
-            return (
-              <>
-                {student.item && (
-                  <span className="px-3 py-3 border">
-                    {student.item && student.item.lastName},{" "}
-                    {student.item && student.item.firstName}
-                  </span>
-                )}
-                {student.item && (
-                  <TeamBadge
-                    teamID={student.item.teamID}
-                    teamsList={data.teams}
-                  />
-                )}
-              </>
-            );
-          })}
-        </div>
+        {filteredStudents && (
+          <div className="grid grid-cols-[2fr,1fr] text-gray-700 overflow-hidden border">
+            {filteredStudents.map((student, i) => {
+              return (
+                <>
+                  {student.item && (
+                    <span key={i} className="px-3 py-3 border">
+                      {student.item && student.item.lastName},{" "}
+                      {student.item && student.item.firstName}
+                    </span>
+                  )}
+                  {student.item && (
+                    <TeamBadge
+                      key={i}
+                      teamID={student.item.teamID}
+                      teamsList={data.teams}
+                    />
+                  )}
+                </>
+              );
+            })}
+          </div>
+        )}
+        {!filteredStudents && (
+          <div className="flex justify-center text-lg pt-5">
+            Rendering student list, please wait...
+          </div>
+        )}
         <div></div>
         {/* <p>{JSON.stringify(filteredStudents)}</p> */}
       </main>
