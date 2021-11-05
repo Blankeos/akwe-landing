@@ -24,8 +24,8 @@ numberOfParticipants: "0"
 
 | Criteria                                                                   | Percent |
 | -------------------------------------------------------------------------- | ------- |
-| **Concept/Relevance** - (Creativity, Originality, and Message)             | 30%     |
-| **Character and Dialogue** - (Acting, Portrayal, and Mastery)              | 20%     |
-| **Overall Visual Impact** - (Video Quality, Attire, and Artistry)          | 20%     |
-| **Social Media Reactions** - (Total count of "Haha" reactions on Facebook) | 15%     |
+| **Concept/Relevance** - (Creativity, Originality, and Message)             | 40%     |
+| **Character and Dialogue** - (Acting, Portrayal, and Mastery)              | 25%     |
+| **Overall Visual Impact** - (Video Quality, Attire, and Artistry)          | 15%     |
+| **Social Media Reactions** - (Total count of "Haha" reactions on Facebook) | 20%     |
 | **TOTAL**                                                                  | 100%    |

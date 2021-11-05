@@ -27,8 +27,8 @@ numberOfParticipants: "0"
 
 | Criteria                                                                                                                                                                 | Percent |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- |
-| **Relevance to the Theme **- The artwork should effectively communicate from the given theme                                                                             | 10%     |
-| **Originality and Creativity **- Must present creativeness and unique interpretation of the artwork                                                                      | 15%     |
-| **Aesthetic Appeal** - Quality of artistic composition and presentation using unique lighting, use of color, interesting perspective or by featuring an unusual subject. | 40%     |
-| **Overall Impact** - The mood/emotions projected to the viewers and general design based on the theme                                                                    | 20%     |
+| **Relevance to the Theme **- The artwork should effectively communicate from the given theme                                                                             | 35%     |
+| **Originality and Creativity **- Must present creativeness and unique interpretation of the artwork                                                                      | 25%     |
+| **Aesthetic Appeal** - Quality of artistic composition and presentation using unique lighting, use of color, interesting perspective or by featuring an unusual subject. | 25%     |
+| **Overall Impact** - The mood/emotions projected to the viewers and general design based on the theme                                                                    | 15%     |
 | **Total**                                                                                                                                                                | 100%    |
