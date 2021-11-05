@@ -28,10 +28,10 @@ function Program() {
         <meta name="twitter:image" content="/photos/sc_0.png" />
       </Head>
       <main className="max-w-5xl w-full mx-auto pt-10 pb-28 px-10 overflow-hidden flex-grow flex flex-col space-y-10">
-        <h1 className="font-extrabold tracking-tighter text-center text-gray-800 text-5xl">
+        <h1 className="font-extrabold tracking-tighter text-center text-gray-800 text-4xl md:text-5xl">
           Program Flow
         </h1>
-        <div className="flex flex-col space-y-2 text-gray-700 py-20">
+        <div className="flex flex-col space-y-2 text-gray-700 md:py-16">
           <ProgramFlowItem
             leftHeading="I. Opening Hymn"
             rightHeading="9:00 AM"

@@ -20,13 +20,16 @@ function Nav() {
                   CYBERGENCE
                 </a>
               </Link>
-              <div className="hidden h-full md:flex space-x-10 text-gray-600">
+              <div className="hidden h-full lg:flex space-x-10 text-gray-600">
                 <NavLinkItem href="/">Home</NavLinkItem>
                 <NavLinkItem href="/about">About</NavLinkItem>
                 <NavLinkItem href="/program">Program</NavLinkItem>
+                <NavLinkItem href="/rules-and-guidelines/cyberpunk_outfits">
+                  Rules and Guidelines
+                </NavLinkItem>
                 <NavLinkItem href="/search">Student Search</NavLinkItem>
               </div>
-              <div className="-mr-2 flex md:hidden">
+              <div className="-mr-2 flex lg:hidden">
                 <button
                   onClick={() => setIsOpen(!isOpen)}
                   type="button"
@@ -92,11 +95,17 @@ function Nav() {
                   <NavLinkItem onClick={() => setIsOpen(false)} href="/">
                     Home
                   </NavLinkItem>
+                  <NavLinkItem onClick={() => setIsOpen(false)} href="/about">
+                    About
+                  </NavLinkItem>
                   <NavLinkItem onClick={() => setIsOpen(false)} href="/program">
                     Program
                   </NavLinkItem>
-                  <NavLinkItem onClick={() => setIsOpen(false)} href="/about">
-                    About
+                  <NavLinkItem
+                    onClick={() => setIsOpen(false)}
+                    href="/rules-and-guidelines/cyberpunk_outfits"
+                  >
+                    Rules and Guidelines
                   </NavLinkItem>
                   <NavLinkItem onClick={() => setIsOpen(false)} href="/search">
                     Student Search
@@ -117,7 +126,7 @@ function NavLinkItem({ href, children, onClick = () => null }) {
     <Link href={href}>
       <a
         onClick={onClick}
-        className={`flex items-center ${
+        className={`flex items-center truncate text-sm ${
           router.pathname === href ? " font-semibold" : ""
         }`}
       >

@@ -82,7 +82,7 @@ function ProfileItem({ name, title, imageSrc }) {
   return (
     <div className="flex flex-col items-center space-y-1">
       <div
-        className="h-32 w-32 rounded-full bg-[#feabf1] border"
+        className="h-32 w-32 rounded-full bg-white  border"
         style={{
           backgroundImage: `url(${imageSrc})`,
           backgroundPosition: "center",
