@@ -9,7 +9,7 @@ function SearchPage({ data }) {
 
   const fuse = new Fuse(data.students, {
     keys: ["lastName", "firstName"],
-    threshold: 0.4,
+    threshold: 0.5,
   });
 
   function fuzzySearch(value) {
@@ -78,9 +78,9 @@ function SearchPage({ data }) {
           <div className="grid grid-cols-[2fr,1fr] text-gray-700 overflow-hidden border">
             {filteredStudents.map((student, i) => {
               return (
-                <>
+                <React.Fragment key={i}>
                   {student.item && (
-                    <span key={i} className="px-3 py-3 border">
+                    <span className="px-3 py-3 border">
                       {student.item && student.item.lastName},{" "}
                       {student.item && student.item.firstName}
                     </span>
@@ -92,7 +92,7 @@ function SearchPage({ data }) {
                       teamsList={data.teams}
                     />
                   )}
-                </>
+                </React.Fragment>
               );
             })}
           </div>
