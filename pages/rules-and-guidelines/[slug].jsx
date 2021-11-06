@@ -4,6 +4,7 @@ import Head from "next/head";
 import { MDXRemote } from "next-mdx-remote";
 import { serialize } from "next-mdx-remote/serialize";
 
+import { BsFillExclamationTriangleFill } from "react-icons/bs";
 import Link from "next/link";
 
 function RulesAndGuideLinesPage({
@@ -44,6 +45,25 @@ function RulesAndGuideLinesPage({
         <meta name="twitter:image" content="/photos/sc_0.png" />
       </Head>
       <main className="max-w-5xl w-full mx-auto pt-10 pb-28 px-10 overflow-hidden flex-grow flex flex-col space-y-10">
+        <div className="bg-yellow-300 p-5 flex gap-x-5">
+          <span className="flex items-center">
+            <BsFillExclamationTriangleFill size="2rem" />
+          </span>
+          <span className="flex flex-col space-y-0.5">
+            <span className="font-bold text-gray-800 tracking-tight">
+              Rules and Guidelines have been updated
+            </span>
+            <span>
+              Download the updated version:{" "}
+              <a
+                href="/PROGRAM-FLOW-RULES-and-GUIDELINES.pdf"
+                className="underline"
+              >
+                PROGRAM-FLOW-RULES-and-GUIDELINES.pdf
+              </a>
+            </span>
+          </span>
+        </div>
         <div>
           <h3 className="font-bold tracking-tighter text-xl pb-2">Events</h3>
           <div className="flex gap-x-3 gap-y-3 flex-wrap text-sm">
