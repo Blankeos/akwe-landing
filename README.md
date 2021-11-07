@@ -1,6 +1,6 @@
-)
-
 # Cybergence 2021 Event Portal/Landing Website
+
+[cybergence.vercel.app](https://cybergence.vercel.app/)
 
 ![Screenshot](https://raw.githubusercontent.com/Blankeos/akwe-landing/main/public/photos/sc_0.png)
 
